@@ -1,0 +1,154 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://greenpost.ua/upload/news/2021/08/08/snov-1_965x0.jpg?v=1628417124");
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #3a642a;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+   
+    
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(28, 54, 24);
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    background-color: rgb(104, 170, 108);
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: rgb(139, 185, 133);
+    padding: 15px 45px 30px 45px;
+    width: 450px;
+    margin: 20px;
+    position: static;
+    border: 3px solid rgb(0, 83, 0);
+    border-radius: 10%;
+    opacity: 0.5;
+    box-shadow: 5px, 5px, 10px, 0px, green;
+    
+}
+
+
+
+
+.article-but {
+    text-decoration: none;
+    background-color: #5d9244;
+    color: rgb(27, 104, 56);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}  
+aside{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 230px;
+    background-color: gray;
+    border-radius: 10px;
+    width: 100px;
+    height: 250px;
+    padding: 20px;
+}
+.aside-text{
+    font-size: 20px;
+    color: white;
+}
+.social{
+    margin: 0px 0px 20px 25px;
+    display: block;
+    width: 50px;
+}
+
+
+.address::before{
+    content: url("https://drive.google.com/uc?export=view&id=1LUK43oqCmBMxO4O0CG8M2P1rxme_ragf");
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+}
+.tel::before{
+    content: url("https://drive.google.com/uc?export=view&id=1VqNmRf6KNRwAM69MQ8WSgsnarlVwfMEe");
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+}
+.post:hover{
+    background-color: rgb(175, 238, 159);
+    border: 3px dotted rgb(20, 207, 20);
+    opacity: 1;
+    transition: 2s ;
+    
+}
+.post:hover .article-but{
+    background-color: rgb(69, 131, 33);
+}
+.nav-link:hover{
+    background-color: rgb(2, 59, 5);
+    border: 5px solid rgb(176, 241, 138);
+    padding: 5px ;
+    color: rgb(60, 255, 0);
+
+
+}
+
+.icon::before{
+    content: url("https://drive.google.com/uc?export=view&id=1NPwxf_jGtsOevIbJVNM4KgpxJd_SHrPM");
+    
+}
+.icon::after{
+    content: url("https://drive.google.com/uc?export=view&id=1NPwxf_jGtsOevIbJVNM4KgpxJd_SHrPM");
+}
+.video{
+    background-color: #3a642a;
+}
